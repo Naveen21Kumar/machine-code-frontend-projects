@@ -3,7 +3,7 @@ import Pagination from './Pagination';
 import './Pagination.css';
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(4);
 
   const onPageChange = (page) => {
     setCurrentPage(page);
