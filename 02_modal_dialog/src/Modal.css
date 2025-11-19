@@ -1,0 +1,18 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+.modal-content {
+  background: lightgray;
+  padding: 20px;
+  width: 420px;
+  max-width: 90%;
+  border-radius: 12px;
+  outline: none;
+}
