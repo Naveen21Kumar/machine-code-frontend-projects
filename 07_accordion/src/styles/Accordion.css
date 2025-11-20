@@ -1,0 +1,40 @@
+.accordion {
+  width: 400px;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background: #f7f7f7;
+  width: 100%;
+  border: none;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+}
+
+.accordion-body {
+  background: white;
+  border-top: 1px solid #ddd;
+  padding: 16px;
+  animation: fade 0.5s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
