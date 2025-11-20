@@ -1,0 +1,36 @@
+.search-container {
+  width: 300px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.dropdown {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  max-height: 160px;
+  overflow-y: auto;
+  border-top: none;
+  border: 1px solid #eee;
+  border-radius: 0 0 6px 6px;
+}
+
+.dropdown-item {
+  list-style: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.dropdown-item:hover,
+.dropdown-item.highlight {
+  background: #eee;
+}
