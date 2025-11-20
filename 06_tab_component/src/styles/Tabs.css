@@ -1,0 +1,33 @@
+.tab-container {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.tab-headers {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab-btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tab-btn:hover {
+  background: #f4f4f4;
+}
+
+.active-tab {
+  border-bottom: 1px solid #007bff;
+  font-weight: 600;
+}
+
+.tab-panel {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
